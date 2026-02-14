@@ -12,8 +12,8 @@ export default function Login() {
   }
 
   return (
-    <main className="section" style={{ minHeight: '100vh', display: 'grid', placeItems: 'center' }}>
-      <div className="card" style={{ width: '100%', maxWidth: '480px' }}>
+    <main className="auth-section">
+      <div className="card">
         <div className="card-body">
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
             <img src={logo} alt="Logo VideoBelajar" style={{ width: '135px', height: '32px' }} />
